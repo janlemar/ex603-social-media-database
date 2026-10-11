@@ -1,0 +1,5 @@
+# Unit 3 Finding: Social Media
+
+The dashboard showed that about half of the reactions were failures, which led to the payout being frozen. But, when I went and checked the database, I found 200 reactions in total. 156 were active, 10 were flagged, and 34 were removed. This means that around 17% of the reactions were removed, so the numbers didn't match at all compared to the dashboard. 
+
+I also found a few issues with the queries. for example, missing reasons can cause records to be left out of the results, and one query had an issue with how it used a calculated value. I corrected the quereies and tested three different ways of finding the suers with the removed reactions. All three returned the same 20 users! BUT, I still need to check the original query to confirm whether or not these erros caused the incorrect rate. I recommend reviewing and correcting the dashboard before making a final decision. All the numbers regarding which are active, flagged, and removed should be counted separately. 
