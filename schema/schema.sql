@@ -5,7 +5,7 @@
 -- Target: PostgreSQL 14+
 -- =================================================================
 
--- Reset. reverse creation order, so no dependency blocks a drop.
+-- Reset. Reverse creation order, so no dependency blocks a drop.
 
 DROP TABLE IF EXISTS post_hashtags CASCADE;
 DROP TABLE IF EXISTS likes CASCADE;
