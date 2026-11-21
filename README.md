@@ -102,7 +102,7 @@ Query results and project evidence are available in the [screenshots folder](scr
 
 ## Project Presentation
 
-**Video Presentation:** [Insert video URL here]
+**Video Presentation:** https://youtu.be/BjpNBy0pwrs
 
 ## Running the Project
 
@@ -114,5 +114,4 @@ Query results and project evidence are available in the [screenshots folder](scr
 6. Review the written analysis and findings in the `analysis` directory.
 
 **Database:** PostgreSQL
-
 **Schema file:** `schema/schema.sql`
